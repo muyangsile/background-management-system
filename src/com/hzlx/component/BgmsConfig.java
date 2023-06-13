@@ -9,4 +9,5 @@ public class BgmsConfig {
     public final static String FIRST_MENU="firstMenu";
     public final static String KEYWORD="keyword";
     public static final String ROLE_LIST = "roleList";
+    public static final String TEST="test";
 }
