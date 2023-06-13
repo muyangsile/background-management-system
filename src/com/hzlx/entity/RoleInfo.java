@@ -1,0 +1,25 @@
+package com.hzlx.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * @author 哈喽沃德
+ * @version 1.0.0
+ * @title RoleInfo
+ * @description <TODO description class purpose>
+ * @createTime 2023/6/6 10:30
+ **/
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class RoleInfo implements Serializable {
+    private Integer id;
+    private String name;
+    private Date createTime;
+    private Integer status;
+}
